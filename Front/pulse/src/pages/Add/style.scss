@@ -1,0 +1,58 @@
+.add{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url('https://img.freepik.com/premium-photo/food-cooking-preparation-background-kitchen-table-background-with-spices-herbs-vegetables-parsley-onion-garlic-tomatoes-salt-olive-oil-white-background-top-view-flatlay-copy-space_136595-20794.jpg');
+    background-size: 100% 100%;
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input{
+            width: 430px;
+            height: 30px;
+            outline: none;
+            border: 1px solid #806103;
+        }
+        button {
+            background-color: #bea559;
+            color: white;
+            width: 120px;
+            height: 40px;
+            transition: 0.4s;
+            border: none;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #806103;
+                color: #806103;
+            }
+        }
+    }
+    input{
+        width: 430px;
+        height: 45px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #806103;
+    }
+    table{
+        margin-top: 40px;
+        width: 75%;
+        td{
+            text-align: center;
+            button{
+                width: 25px;
+                height: 25px;
+                background-color: rgb(195, 18, 18);
+                border: none;
+                color: white;
+            }
+        }
+    }
+}

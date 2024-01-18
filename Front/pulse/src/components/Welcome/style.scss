@@ -1,0 +1,52 @@
+.welcome{
+    max-width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    .fa-mug-hot {
+        font-size: 70px;
+        color: black;
+    }
+
+    .our {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        h1 {
+            font-size: 55px;
+            color: black;
+        }
+
+        .left {
+            width: 370px;
+            height: 2px;
+            background-color: #ffc515;
+        }
+
+        .right {
+            width: 370px;
+            height: 2px;
+            background-color: #ffc515
+        }
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 60px;
+        .card{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

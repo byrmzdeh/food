@@ -1,0 +1,25 @@
+.basket{
+    width: 100%;
+    min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://as1.ftcdn.net/v2/jpg/05/04/19/00/1000_F_504190003_lC3anwzZyEvJPmtGbTC5XgL5fmoS9XHB.jpg');
+  background-size: 100% 100%;
+    table{
+        margin-top: 80px;
+        width: 75%;
+     
+        td{
+        
+            text-align: center;
+            button{
+                width: 25px;
+                height: 25px;
+                background-color: rgb(195, 18, 18);
+                border: none;
+                color: white;
+            }
+        }
+    }
+}

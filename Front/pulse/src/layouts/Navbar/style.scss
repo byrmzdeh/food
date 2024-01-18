@@ -1,0 +1,26 @@
+.navbar{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    h1{
+        color: white;
+    }
+
+   ul{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    li{
+        a{
+            color: white;
+        }
+        .active{
+            color: #ffc515 ;
+        }
+    }
+   }
+}

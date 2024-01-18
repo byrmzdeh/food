@@ -1,0 +1,32 @@
+.wishlist {
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('https://sproutingzen.com/wp-content/uploads/2017/04/AdobeStock_111615673.jpeg');
+    background-size: 100% 100%;
+
+    .card {
+        width: 300px;
+        height: 300px;
+        border: 1px solid #b88f13;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        h2{
+            text-align: center;
+        }
+
+        button {
+            border: none;
+            width: 150px;
+            height: 40px;
+            background-color: #ffc515;
+            color: white;
+        }
+    }
+}
